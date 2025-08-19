@@ -15,7 +15,7 @@ async function fetchData() {
     const usersPromises = await userData.results.map(async (data) => {
       const user = {};
 
-      // user's name
+      // user's name//
       user.name = data.name;
 
       // user's films
